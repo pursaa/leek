@@ -10,12 +10,16 @@ def leetspeak
   # self
 
   word.each() do |i|
+
     if i == "e"
       new_word.push(3)
+    elsif i == "o"
+      new_word.push(0)
     else
       new_word.push(i)
     end
   end
+#The .join at the end will take the array and push it back together. If you add .join(--) the array will have the --between each letter.
   return new_word.join
     end
   end
