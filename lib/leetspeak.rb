@@ -15,6 +15,10 @@ def leetspeak
       new_word.push(3)
     elsif i == "o"
       new_word.push(0)
+
+    elsif i == "I"
+      new_word.push(1)
+
     else
       new_word.push(i)
     end
